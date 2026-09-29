@@ -1,9 +1,0 @@
-a = int(input())
-b = int(input())
-c = int(input())
-print('(', end = '')
-print(a, b, sep = ' + ', end = ' - ')
-print(c, ') % 10', sep = '', end = ' = ')
-print((a + b - c) % 10)
-
-# Программа выводит '(a + b - c) % 10 = 0'
